@@ -7,7 +7,7 @@ int main(){
     int num1,num2,Addition,Subtraction,Multiplication,Modulo;
     float Division;
     cin>>num1>>num2;
-    cout<<"Num1 = "<<num1<<endl<<"Num2 = "<<num2<<endl;
+    cout<<"num1 = "<<num1<<endl<<"num2 = "<<num2<<endl;
     Addition = num1+num2;
     Subtraction=num1-num2;
     Multiplication=num1*num2;
