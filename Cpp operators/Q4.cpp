@@ -4,6 +4,25 @@
 #include<iostream>
 using namespace std;
 int main(){
- 
+    int first,fourth,fiveDigitNumber;
+    cin>>fiveDigitNumber;
+    //loop for fourth digit 
+    while(fiveDigitNumber>=10000){
+        fiveDigitNumber/=10;
+    }
+    fourth=(int) fiveDigitNumber;
+    fourth=fourth%10;
+    cout<<"fourth digit = "<<fourth<<endl;
+
+    // loop for first digit 
+    while(fiveDigitNumber>=10){
+        fiveDigitNumber/=10;
+    } 
+    first=(int) fiveDigitNumber;
+    cout<<"first digit = "<<first<<endl;
+
+    cout<<"addition = "<<first+fourth<<endl;
+    return 0;
+
 
 }
